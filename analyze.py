@@ -110,7 +110,7 @@ def lsw(word) :
     word2 = word.translate(word.maketrans('', '', string.punctuation))
     for item in dll:
         if word2 in item :
-            print(word, "is", item[0], "out of", wcount, "total words in", f1name)
+            print(f"{word} is {item[0]} out of {wcount} total words in {f1name}")
             break
 #
 #
@@ -118,7 +118,7 @@ def lsw(word) :
 def lsl(lttr) :
     for item in letrll:
         if lttr in item :
-            print(lttr, "is", item[0], "out of", lcount, "total characters in", f1name)
+            print(f"{word} is {item[0]} out of {lcount} total characters in {f1name}")
             break
 #
 #
