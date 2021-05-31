@@ -176,9 +176,9 @@ elif deci == 4 :
     dec4 = dec4.lower()
     lsl(dec4)
 elif deci == 5 :
-    print("There are", str(wcount), "words in", f1name + ".")
+    print(f"There are {wcount} words in {f1name}")
 elif deci == 6 :
-    print("There are", str(lcount), "characters, minus punctuation, in", f1name + ".")
+    print(f"There are {lcount} characters, minus punctuation, in {f1name}")
 elif deci == 7 :
     f2name = input("Enter your desired file name.> ")
     try :
